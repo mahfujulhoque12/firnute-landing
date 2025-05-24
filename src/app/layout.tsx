@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en" className={poppins.variable}>
       <AppProvider>
 
-      <body className="antialiased bg-gradient-to-l from-[#EFE2D5] to-[#E5E0DC] text-gray-900 scroll-smooth">
+      <body className="antialiased bg-gradient-to-l from-[#f0e3d7] to-[#f5f0ec] text-gray-900 scroll-smooth">
 
         {children}
       </body>
