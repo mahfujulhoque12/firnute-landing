@@ -119,7 +119,7 @@ const ByeNow = () => {
           <button
             type="submit"
             disabled={isLoading}
-            className="w-full bg-[#C49102] hover:bg-[#463d25] text-white font-semibold py-2 rounded-md transition cursor-pointer"
+            className="w-full bg-[#FFB200] hover:bg-[#463d25] text-white font-semibold py-2 rounded-md transition cursor-pointer"
           >
             {isLoading ? 'Placing Order...' : 'Place Order'}
           </button>

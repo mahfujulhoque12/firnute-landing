@@ -10,7 +10,7 @@ const Badge = () => {
 
   return (
     <MaxWidthWrapper>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
         {badges.map((badge) => (
           <div
             key={badge.id}
@@ -35,7 +35,7 @@ const Badge = () => {
       <div className="mt-5">
         <Link
           href="#order"
-          className="relative overflow-hidden text-xl font-bold text-white bg-[#C49102] px-6 py-3 rounded-md w-full block text-center group"
+          className="relative overflow-hidden text-xl font-bold text-white bg-[#FFB200] px-6 py-3 rounded-md w-full block text-center group"
         >
           <span className="relative z-10">Order Now</span>
           <span className="absolute top-0 left-0 w-full h-full bg-white opacity-10 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out" />
