@@ -6,6 +6,7 @@ import logo2 from '/public/logo/logo2.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import { SiShopify } from 'react-icons/si';
+import { HiMenuAlt1 } from 'react-icons/hi';
 
 
 const Header = () => {
@@ -15,9 +16,13 @@ const Header = () => {
     <MaxWidthWrapper>
 
         <div className='flex justify-between gap-3 items-center   h-20'>
+           
+            <div className='relative'> 
+                <button className='text-[#FFB200] cursor-pointer'><HiMenuAlt1   size={40} /></button>
+            </div>
+
             <Link href="#" className='flex items-center gap-2'>
                 <Image src={logo2} width={100} height={100} alt='logo' className='w-[100px] h-[80px]'/>
-              <div className='text-2xl font-semibold  text-[#FFB200]'>Your Brand </div>
             </Link>
        
             <div className='relative'> 
