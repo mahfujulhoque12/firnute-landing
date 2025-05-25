@@ -5,8 +5,6 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel"
 import { useGetBannersQuery } from '@/redux/features/api/bannerApi'
 import Image from 'next/image'
@@ -61,8 +59,7 @@ const Hero = () => {
             ))}
           </CarouselContent>
 
-          <CarouselPrevious className="hidden sm:block" />
-          <CarouselNext className="hidden sm:block" />
+        
         </Carousel>
 
         {/* Dots container */}
@@ -72,7 +69,7 @@ const Hero = () => {
               key={i}
               className={`
                 h-2 w-2 rounded-full transition-transform
-                ${activeDot === i ? 'bg-blue-600 scale-125' : 'bg-gray-300'}
+                ${activeDot === i ? 'bg-white scale-125' : 'bg-gray-300'}
               `}
               aria-label={`Go to group ${i + 1}`}
               onClick={() => api?.scrollTo(targetIndex)}
