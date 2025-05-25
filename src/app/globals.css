@@ -1,3 +1,5 @@
+
+
 @import "tailwindcss";
 
 body {
@@ -6,4 +8,11 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+:root {
+  --btn-bg: #FFB200 ;
+  --badge-bg: #Fff;
+  --gradient-from: #fff;
+  --gradient-to: #fff;
 }
